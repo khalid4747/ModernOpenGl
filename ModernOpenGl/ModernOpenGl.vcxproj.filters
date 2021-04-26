@@ -18,5 +18,17 @@
     <ClCompile Include="ModernOpenGl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="External Source\Glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentShader.shader" />
+    <None Include="vertexShader.shader" />
   </ItemGroup>
 </Project>
